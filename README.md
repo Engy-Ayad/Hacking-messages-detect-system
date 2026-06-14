@@ -1,10 +1,7 @@
 # Hacking-messages-detect-system
 
-Here is a professional, high-impact `README.md` layout tailored for your GitHub repository. It clearly presents your multi-layered security architecture, highlights the shift from brittle manual rule-matching to an API-driven threat intelligence pipeline, and demonstrates a production-grade approach to the panel.
 
----
-
-# Deraa (درع): AI-Driven Phishing Detection System for Egyptian Dialect SMS
+# AI-Driven Phishing Detection System for Egyptian Dialect SMS
 
 Deraa (Arabic for Shield) is a production-grade, multi-layered security backend designed to detect and classify SMS phishing (smishing) attempts. While traditional security filters rely on static keyword matching, Deraa combines natural language processing (NLP) tailored to the nuances of the Egyptian dialect with live global threat intelligence to identify evolving social engineering vectors, including banking fraud, fake package deliveries, and fraudulent cash rewards.
 
