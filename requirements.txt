@@ -1,0 +1,24 @@
+# Deraa (درع) — AI Phishing Detection System
+# Python 3.9+ required
+
+# ── Backend ─────────────────────────────────
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9       # Required for FastAPI file uploads
+pydantic==2.6.4
+
+# ── ML / NLP ────────────────────────────────
+scikit-learn==1.4.2
+numpy==1.26.4
+
+# ── OCR Pipeline ────────────────────────────
+easyocr==1.7.1                # Arabic + English OCR
+Pillow==10.3.0                # Image handling
+
+# ── Frontend ────────────────────────────────
+streamlit==1.33.0
+requests==2.31.0
+
+# ── Optional: Tesseract alternative ─────────
+# pytesseract==0.3.10         # Uncomment if using Tesseract instead of EasyOCR
+# tesseract-lang: Install OS-level: sudo apt install tesseract-ocr-ara
